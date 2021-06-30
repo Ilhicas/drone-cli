@@ -4,6 +4,8 @@ go 1.16
 
 replace github.com/docker/docker => github.com/docker/engine v17.12.0-ce-rc1.0.20200309214505-aa6a9891b09c+incompatible
 
+replace github.com/drone/drone-runtime => github.com/Ilhicas/drone-runtime v1.1.1
+
 require (
 	github.com/docker/go-units v0.3.3
 	github.com/drone/drone-go v1.6.1-0.20210601150845-c0e5325523a6
@@ -23,4 +25,5 @@ require (
 	go.starlark.net v0.0.0-20201118183435-e55f603d8c79
 	golang.org/x/net v0.0.0-20190603091049-60506f45cf65
 	golang.org/x/oauth2 v0.0.0-20181203162652-d668ce993890
+	gotest.tools v2.2.0+incompatible // indirect
 )
